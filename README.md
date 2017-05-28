@@ -12,7 +12,7 @@ Scripturile vor fi executate in urmatoarea ordine:
 9. exemple_joinuri
 
 Baza de date Biblioateca are urmatoarele tabele:
-  *Carti cu urmatoarele campuri isbn, titlu, editura, data_publicare, nr_bucati, disponibilitate
+  *Carti cu urmatoarele campuri isbn, titlu, editura, data_publicare, nr_bucati, disponibilitate*
   *CartiAutori(isbn, id_autor) este o tabela triviala care rezolva relatia many to many dintre carti si autori
   *Autori (id_autor, cnp, nume, adresa, email) 
   *NrBucati (id, isbn, id_imprumut) este o tabela care ajuta la diferentierea cartilor de acelasi fel deoarece o carte avand mai multe exemplare are acelasi isbn si ar fi fost o problema sa stim care carte a fost imprumutata din cele care fac parte din acelasi exemplar
